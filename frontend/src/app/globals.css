@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --border: #e2e8f0;
+  --input: #f1f5f9;
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+  --primary-dark: #1d4ed8;
+  --primary-light: #dbeafe;
+  --accent: #06b6d4;
+  --accent-soft: #ecfeff;
+  --muted: #e2e8f0;
+  --muted-foreground: #475569;
+  --soft: #eff6ff;
+  --success: #16a34a;
+  --success-soft: #dcfce7;
+  --warning: #f59e0b;
+  --warning-soft: #fef3c7;
+  --ink-soft: #64748b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-light: var(--primary-light);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-soft: var(--soft);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-ink-soft: var(--ink-soft);
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+  --text-extra-small: 12px;
+  --text-small: 14px;
+  --text-base: 16px;
+  --text-large: 18px;
+  --text-extra-large: 20px;
+  --text-huge: 24px;
+  --text-extra-huge: 30px;
+  --text-gigantic: 36px;
+  --text-extra-gigantic: 48px;
+  --radius-small: 6px;
+  --radius-medium: 10px;
+  --radius-large: 16px;
+  --radius-extra-large: 24px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+}
